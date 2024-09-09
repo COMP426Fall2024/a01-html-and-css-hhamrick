@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #104547;
+    /* position: fixed; */
+	/* width: 100%; */
+}
+
+.navbar li {
+    float: left;
+}
+
+#right {
+	float: right;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+	background-color: #104547;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#current {
+    font-weight: bold;
+    color: #104547;
+	background-color: white;
+    text-decoration: underline #104547;
+}
+
+.navbar a:hover:not(.nohov) {
+    color: #104547;
+	background-color: white;
+}
+
+.navbar a:active:not(.nohov) {
+    color: white;
+}
+
+.centered {
+    width: 70%;
+    margin: 25px auto;
+    text-align: center;
+}
