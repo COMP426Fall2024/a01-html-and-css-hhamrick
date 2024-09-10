@@ -6,6 +6,7 @@
 body {
     min-height: 100vh;
     width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar ul {
@@ -13,8 +14,6 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #104547;
-    /* position: fixed; */
-	/* width: 100%; */
 }
 
 .navbar li {
@@ -55,4 +54,50 @@ body {
     width: 70%;
     margin: 25px auto;
     text-align: center;
+}
+
+hr {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif
+}
+
+#maintable ul {
+    width: 70%;
+    margin: auto;
+}
+
+#maintable li {
+    text-align: left;
+    font-size: 20px;
+}
+
+#maintable img {
+    height: 800px;
+}
+
+#famtable {
+    margin: auto;
+}
+
+#famtable, #famtable th, #famtable td {
+    border-collapse: collapse;
+    border: solid 1px black;
+    font-size: 20px;
+}
+
+#famtable img {
+    height: 300px;
+}
+
+.centered p {
+    font-size: 20px;
+}
+
+select, button {
+    font-size: 16px;
+    margin: 10px 0;
 }
